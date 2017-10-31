@@ -36,10 +36,10 @@ Service is implemented in a _stateless_ fashion, so **horizontal scaling** is po
 To get a slight idea about performance some integration tests are also implemented.
 
 Over 5K lines processed on my crappy desktop :) with mobile I5 CPU and      
-on laptop with i7 6820HQ CPU more than 10K log lines processed per second 
+on laptop with i7 6820HQ CPU around 25K log lines processed per second 
 (excluding file read).
 
 | CPU       |  #lines per second |  
 |-----------|--------------------|
 | mobile I5 | ~6K                |
-| i7 6820HQ | ~14K               |
+| i7 6820HQ | ~25K               |

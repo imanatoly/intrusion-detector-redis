@@ -21,7 +21,7 @@ import static org.junit.Assert.assertTrue;
 
 public class HackerDetectorITest extends IntTestBase {
 
-    private static final int LOG_LINE_COUNT = 1000;
+    private static final int LOG_LINE_COUNT = 100000;
 
     @Autowired
     private HackerDetector hackerDetector;
